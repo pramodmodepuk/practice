@@ -1,0 +1,29 @@
+{
+  "settings": {
+    "hostname": "http://eagle.signalwire.com/",
+    "outboundPhoneNumber": "+19293961177",
+    "callTransferTo_": "+13027729500",
+    "GDF_connection": "+13022055454",
+    "menus": {
+         "main": {
+        "1": {
+          "verbiage": "press 1 to connect live",
+          "action": "/transfer_call"
+        },
+        "2": {
+          "verbiage": "press 2 to know the Eagle ACD services",
+          "action": "/connect_dgf"
+        },
+        "3": {
+          "verbiage": "press 3 to quit the call",
+          "action": "/quit_call?"
+        }
+      }
+    }
+  },
+  "signalwire": {
+    "space": "eagle.signalwire.com",
+    "project": "f8b4ffd5-7000-4f2a-803e-710d02874997",
+    "token":"PT52fd95f00d31a7e506baf9acbb8e8f10da19b4923f9d46bc"
+  }
+}
